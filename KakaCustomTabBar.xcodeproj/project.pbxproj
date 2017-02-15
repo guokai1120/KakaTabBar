@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2228E3571E53E29400811D14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3561E53E29400811D14 /* main.m */; };
+		2228E35A1E53E29400811D14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3591E53E29400811D14 /* AppDelegate.m */; };
+		2228E35D1E53E29400811D14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E35C1E53E29400811D14 /* ViewController.m */; };
+		2228E3601E53E29400811D14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2228E35E1E53E29400811D14 /* Main.storyboard */; };
+		2228E3621E53E29400811D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2228E3611E53E29400811D14 /* Assets.xcassets */; };
+		2228E3651E53E29400811D14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2228E3631E53E29400811D14 /* LaunchScreen.storyboard */; };
+		2228E3701E53E29400811D14 /* KakaCustomTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E36F1E53E29400811D14 /* KakaCustomTabBarTests.m */; };
+		2228E37B1E53E29400811D14 /* KakaCustomTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E37A1E53E29400811D14 /* KakaCustomTabBarUITests.m */; };
+		2228E3931E53E2EB00811D14 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E38B1E53E2EB00811D14 /* MainNavigationController.m */; };
+		2228E3941E53E2EB00811D14 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E38D1E53E2EB00811D14 /* MainTabBarController.m */; };
+		2228E3951E53E2EB00811D14 /* MainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3901E53E2EB00811D14 /* MainTabBar.m */; };
+		2228E3961E53E2EB00811D14 /* MainTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3921E53E2EB00811D14 /* MainTabBarButton.m */; };
+		2228E39B1E53E3F900811D14 /* HomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E39A1E53E3F900811D14 /* HomePageVC.m */; };
+		2228E39E1E53E41B00811D14 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E39D1E53E41B00811D14 /* MineVC.m */; };
+		2228E3A11E53E42800811D14 /* MunicipiosVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3A01E53E42800811D14 /* MunicipiosVC.m */; };
+		2228E3A41E53E45700811D14 /* ToolsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3A31E53E45700811D14 /* ToolsVC.m */; };
+		2228E3A81E53E59900811D14 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3A71E53E59900811D14 /* UIColor+HexColor.m */; };
+		2228E3AB1E53E81200811D14 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228E3AA1E53E81200811D14 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2228E36C1E53E29400811D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2228E34A1E53E29400811D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2228E3511E53E29400811D14;
+			remoteInfo = KakaCustomTabBar;
+		};
+		2228E3771E53E29400811D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2228E34A1E53E29400811D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2228E3511E53E29400811D14;
+			remoteInfo = KakaCustomTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2228E3521E53E29400811D14 /* KakaCustomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaCustomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2228E3561E53E29400811D14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2228E3581E53E29400811D14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2228E3591E53E29400811D14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2228E35B1E53E29400811D14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2228E35C1E53E29400811D14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2228E35F1E53E29400811D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2228E3611E53E29400811D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2228E3641E53E29400811D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2228E3661E53E29400811D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2228E36B1E53E29400811D14 /* KakaCustomTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakaCustomTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2228E36F1E53E29400811D14 /* KakaCustomTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KakaCustomTabBarTests.m; sourceTree = "<group>"; };
+		2228E3711E53E29400811D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2228E3761E53E29400811D14 /* KakaCustomTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakaCustomTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2228E37A1E53E29400811D14 /* KakaCustomTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KakaCustomTabBarUITests.m; sourceTree = "<group>"; };
+		2228E37C1E53E29400811D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2228E38A1E53E2EB00811D14 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		2228E38B1E53E2EB00811D14 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		2228E38C1E53E2EB00811D14 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		2228E38D1E53E2EB00811D14 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		2228E38F1E53E2EB00811D14 /* MainTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar.h; sourceTree = "<group>"; };
+		2228E3901E53E2EB00811D14 /* MainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar.m; sourceTree = "<group>"; };
+		2228E3911E53E2EB00811D14 /* MainTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarButton.h; sourceTree = "<group>"; };
+		2228E3921E53E2EB00811D14 /* MainTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarButton.m; sourceTree = "<group>"; };
+		2228E3991E53E3F900811D14 /* HomePageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomePageVC.h; path = Controller/HomePageVC.h; sourceTree = "<group>"; };
+		2228E39A1E53E3F900811D14 /* HomePageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomePageVC.m; path = Controller/HomePageVC.m; sourceTree = "<group>"; };
+		2228E39C1E53E41B00811D14 /* MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MineVC.h; path = Controller/MineVC.h; sourceTree = "<group>"; };
+		2228E39D1E53E41B00811D14 /* MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineVC.m; path = Controller/MineVC.m; sourceTree = "<group>"; };
+		2228E39F1E53E42800811D14 /* MunicipiosVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MunicipiosVC.h; path = Controller/MunicipiosVC.h; sourceTree = "<group>"; };
+		2228E3A01E53E42800811D14 /* MunicipiosVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MunicipiosVC.m; path = Controller/MunicipiosVC.m; sourceTree = "<group>"; };
+		2228E3A21E53E45700811D14 /* ToolsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToolsVC.h; path = Controller/ToolsVC.h; sourceTree = "<group>"; };
+		2228E3A31E53E45700811D14 /* ToolsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToolsVC.m; path = Controller/ToolsVC.m; sourceTree = "<group>"; };
+		2228E3A61E53E59900811D14 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexColor.h"; path = "tools/UIColor+HexColor.h"; sourceTree = "<group>"; };
+		2228E3A71E53E59900811D14 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexColor.m"; path = "tools/UIColor+HexColor.m"; sourceTree = "<group>"; };
+		2228E3A91E53E81200811D14 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = Controller/TestViewController.h; sourceTree = "<group>"; };
+		2228E3AA1E53E81200811D14 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = Controller/TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2228E34F1E53E29400811D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2228E3681E53E29400811D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2228E3731E53E29400811D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2228E3491E53E29400811D14 = {
+			isa = PBXGroup;
+			children = (
+				2228E3541E53E29400811D14 /* KakaCustomTabBar */,
+				2228E36E1E53E29400811D14 /* KakaCustomTabBarTests */,
+				2228E3791E53E29400811D14 /* KakaCustomTabBarUITests */,
+				2228E3531E53E29400811D14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2228E3531E53E29400811D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2228E3521E53E29400811D14 /* KakaCustomTabBar.app */,
+				2228E36B1E53E29400811D14 /* KakaCustomTabBarTests.xctest */,
+				2228E3761E53E29400811D14 /* KakaCustomTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2228E3541E53E29400811D14 /* KakaCustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2228E3981E53E3C800811D14 /* Controller */,
+				2228E3881E53E2EB00811D14 /* TabBar */,
+				2228E3581E53E29400811D14 /* AppDelegate.h */,
+				2228E3591E53E29400811D14 /* AppDelegate.m */,
+				2228E35B1E53E29400811D14 /* ViewController.h */,
+				2228E35C1E53E29400811D14 /* ViewController.m */,
+				2228E35E1E53E29400811D14 /* Main.storyboard */,
+				2228E3611E53E29400811D14 /* Assets.xcassets */,
+				2228E3631E53E29400811D14 /* LaunchScreen.storyboard */,
+				2228E3661E53E29400811D14 /* Info.plist */,
+				2228E3551E53E29400811D14 /* Supporting Files */,
+			);
+			path = KakaCustomTabBar;
+			sourceTree = "<group>";
+		};
+		2228E3551E53E29400811D14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2228E3561E53E29400811D14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2228E36E1E53E29400811D14 /* KakaCustomTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				2228E36F1E53E29400811D14 /* KakaCustomTabBarTests.m */,
+				2228E3711E53E29400811D14 /* Info.plist */,
+			);
+			path = KakaCustomTabBarTests;
+			sourceTree = "<group>";
+		};
+		2228E3791E53E29400811D14 /* KakaCustomTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2228E37A1E53E29400811D14 /* KakaCustomTabBarUITests.m */,
+				2228E37C1E53E29400811D14 /* Info.plist */,
+			);
+			path = KakaCustomTabBarUITests;
+			sourceTree = "<group>";
+		};
+		2228E3881E53E2EB00811D14 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2228E3A51E53E4AE00811D14 /* tools */,
+				2228E3891E53E2EB00811D14 /* Controller */,
+				2228E38E1E53E2EB00811D14 /* view */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		2228E3891E53E2EB00811D14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2228E38A1E53E2EB00811D14 /* MainNavigationController.h */,
+				2228E38B1E53E2EB00811D14 /* MainNavigationController.m */,
+				2228E38C1E53E2EB00811D14 /* MainTabBarController.h */,
+				2228E38D1E53E2EB00811D14 /* MainTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2228E38E1E53E2EB00811D14 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2228E38F1E53E2EB00811D14 /* MainTabBar.h */,
+				2228E3901E53E2EB00811D14 /* MainTabBar.m */,
+				2228E3911E53E2EB00811D14 /* MainTabBarButton.h */,
+				2228E3921E53E2EB00811D14 /* MainTabBarButton.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2228E3981E53E3C800811D14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2228E3991E53E3F900811D14 /* HomePageVC.h */,
+				2228E39A1E53E3F900811D14 /* HomePageVC.m */,
+				2228E39C1E53E41B00811D14 /* MineVC.h */,
+				2228E39D1E53E41B00811D14 /* MineVC.m */,
+				2228E39F1E53E42800811D14 /* MunicipiosVC.h */,
+				2228E3A01E53E42800811D14 /* MunicipiosVC.m */,
+				2228E3A21E53E45700811D14 /* ToolsVC.h */,
+				2228E3A31E53E45700811D14 /* ToolsVC.m */,
+				2228E3A91E53E81200811D14 /* TestViewController.h */,
+				2228E3AA1E53E81200811D14 /* TestViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2228E3A51E53E4AE00811D14 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				2228E3A61E53E59900811D14 /* UIColor+HexColor.h */,
+				2228E3A71E53E59900811D14 /* UIColor+HexColor.m */,
+			);
+			name = tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2228E3511E53E29400811D14 /* KakaCustomTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2228E37F1E53E29400811D14 /* Build configuration list for PBXNativeTarget "KakaCustomTabBar" */;
+			buildPhases = (
+				2228E34E1E53E29400811D14 /* Sources */,
+				2228E34F1E53E29400811D14 /* Frameworks */,
+				2228E3501E53E29400811D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KakaCustomTabBar;
+			productName = KakaCustomTabBar;
+			productReference = 2228E3521E53E29400811D14 /* KakaCustomTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2228E36A1E53E29400811D14 /* KakaCustomTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2228E3821E53E29400811D14 /* Build configuration list for PBXNativeTarget "KakaCustomTabBarTests" */;
+			buildPhases = (
+				2228E3671E53E29400811D14 /* Sources */,
+				2228E3681E53E29400811D14 /* Frameworks */,
+				2228E3691E53E29400811D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2228E36D1E53E29400811D14 /* PBXTargetDependency */,
+			);
+			name = KakaCustomTabBarTests;
+			productName = KakaCustomTabBarTests;
+			productReference = 2228E36B1E53E29400811D14 /* KakaCustomTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2228E3751E53E29400811D14 /* KakaCustomTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2228E3851E53E29400811D14 /* Build configuration list for PBXNativeTarget "KakaCustomTabBarUITests" */;
+			buildPhases = (
+				2228E3721E53E29400811D14 /* Sources */,
+				2228E3731E53E29400811D14 /* Frameworks */,
+				2228E3741E53E29400811D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2228E3781E53E29400811D14 /* PBXTargetDependency */,
+			);
+			name = KakaCustomTabBarUITests;
+			productName = KakaCustomTabBarUITests;
+			productReference = 2228E3761E53E29400811D14 /* KakaCustomTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2228E34A1E53E29400811D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kaka;
+				TargetAttributes = {
+					2228E3511E53E29400811D14 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4XGNFW3D8N;
+						ProvisioningStyle = Automatic;
+					};
+					2228E36A1E53E29400811D14 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4XGNFW3D8N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2228E3511E53E29400811D14;
+					};
+					2228E3751E53E29400811D14 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4XGNFW3D8N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2228E3511E53E29400811D14;
+					};
+				};
+			};
+			buildConfigurationList = 2228E34D1E53E29400811D14 /* Build configuration list for PBXProject "KakaCustomTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2228E3491E53E29400811D14;
+			productRefGroup = 2228E3531E53E29400811D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2228E3511E53E29400811D14 /* KakaCustomTabBar */,
+				2228E36A1E53E29400811D14 /* KakaCustomTabBarTests */,
+				2228E3751E53E29400811D14 /* KakaCustomTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2228E3501E53E29400811D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2228E3651E53E29400811D14 /* LaunchScreen.storyboard in Resources */,
+				2228E3621E53E29400811D14 /* Assets.xcassets in Resources */,
+				2228E3601E53E29400811D14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2228E3691E53E29400811D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2228E3741E53E29400811D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2228E34E1E53E29400811D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2228E35D1E53E29400811D14 /* ViewController.m in Sources */,
+				2228E3AB1E53E81200811D14 /* TestViewController.m in Sources */,
+				2228E3961E53E2EB00811D14 /* MainTabBarButton.m in Sources */,
+				2228E3A41E53E45700811D14 /* ToolsVC.m in Sources */,
+				2228E3941E53E2EB00811D14 /* MainTabBarController.m in Sources */,
+				2228E39E1E53E41B00811D14 /* MineVC.m in Sources */,
+				2228E3A81E53E59900811D14 /* UIColor+HexColor.m in Sources */,
+				2228E3A11E53E42800811D14 /* MunicipiosVC.m in Sources */,
+				2228E3951E53E2EB00811D14 /* MainTabBar.m in Sources */,
+				2228E35A1E53E29400811D14 /* AppDelegate.m in Sources */,
+				2228E3931E53E2EB00811D14 /* MainNavigationController.m in Sources */,
+				2228E39B1E53E3F900811D14 /* HomePageVC.m in Sources */,
+				2228E3571E53E29400811D14 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2228E3671E53E29400811D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2228E3701E53E29400811D14 /* KakaCustomTabBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2228E3721E53E29400811D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2228E37B1E53E29400811D14 /* KakaCustomTabBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2228E36D1E53E29400811D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2228E3511E53E29400811D14 /* KakaCustomTabBar */;
+			targetProxy = 2228E36C1E53E29400811D14 /* PBXContainerItemProxy */;
+		};
+		2228E3781E53E29400811D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2228E3511E53E29400811D14 /* KakaCustomTabBar */;
+			targetProxy = 2228E3771E53E29400811D14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2228E35E1E53E29400811D14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2228E35F1E53E29400811D14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2228E3631E53E29400811D14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2228E3641E53E29400811D14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2228E37D1E53E29400811D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2228E37E1E53E29400811D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2228E3801E53E29400811D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4XGNFW3D8N;
+				INFOPLIST_FILE = KakaCustomTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-jialianjia.KakaCustomTabBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2228E3811E53E29400811D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4XGNFW3D8N;
+				INFOPLIST_FILE = KakaCustomTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-jialianjia.KakaCustomTabBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2228E3831E53E29400811D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4XGNFW3D8N;
+				INFOPLIST_FILE = KakaCustomTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-jialianjia.KakaCustomTabBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KakaCustomTabBar.app/KakaCustomTabBar";
+			};
+			name = Debug;
+		};
+		2228E3841E53E29400811D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4XGNFW3D8N;
+				INFOPLIST_FILE = KakaCustomTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-jialianjia.KakaCustomTabBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KakaCustomTabBar.app/KakaCustomTabBar";
+			};
+			name = Release;
+		};
+		2228E3861E53E29400811D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4XGNFW3D8N;
+				INFOPLIST_FILE = KakaCustomTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-jialianjia.KakaCustomTabBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KakaCustomTabBar;
+			};
+			name = Debug;
+		};
+		2228E3871E53E29400811D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4XGNFW3D8N;
+				INFOPLIST_FILE = KakaCustomTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-jialianjia.KakaCustomTabBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KakaCustomTabBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2228E34D1E53E29400811D14 /* Build configuration list for PBXProject "KakaCustomTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2228E37D1E53E29400811D14 /* Debug */,
+				2228E37E1E53E29400811D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2228E37F1E53E29400811D14 /* Build configuration list for PBXNativeTarget "KakaCustomTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2228E3801E53E29400811D14 /* Debug */,
+				2228E3811E53E29400811D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2228E3821E53E29400811D14 /* Build configuration list for PBXNativeTarget "KakaCustomTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2228E3831E53E29400811D14 /* Debug */,
+				2228E3841E53E29400811D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2228E3851E53E29400811D14 /* Build configuration list for PBXNativeTarget "KakaCustomTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2228E3861E53E29400811D14 /* Debug */,
+				2228E3871E53E29400811D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2228E34A1E53E29400811D14 /* Project object */;
+}
